@@ -8,10 +8,10 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 
 /*pywal Colors*/
 /* #include "/home/adi/.cache/wal/colors-wal-dmenu.h" */
-static char normfgcolor[] = "#bbbbbb";
-static char normbgcolor[] = "#222222";
-static char selfgcolor[]  = "#eeeeee";
-static char selbgcolor[]  = "#005577";
+static char normfgcolor[] = "#ccc3bf";
+static char normbgcolor[] = "#243c3f";
+static char selfgcolor[]  = "#ccc3bf";
+static char selbgcolor[]  = "#A68D75";
 static char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
   [SchemeNorm] = { normfgcolor, normbgcolor },
